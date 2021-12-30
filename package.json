@@ -1,0 +1,31 @@
+{
+    "name": "abipravi",
+    "displayName": "abipravitheme",
+    "description": "New theme for abipravi",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "icon": "icon.png",
+    "author" : {
+        "name": "Abipravi",
+        "email":"praveenkumar.abipravi@outlook.in",
+        "url":"https://twitter.com/abipravi1"
+    },
+    "repository": {
+        "url":"https://github.com/Abipravi1/abipravitheme",
+        "type":"git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "AbipraviTheme2022",
+                "uiTheme": "vs-dark",
+                "path": "./themes/AbipraviTheme2022-color-theme.json"
+            }
+        ]
+    }
+}
